@@ -4,7 +4,7 @@ class Program
 {
     public static void Main()
     {
-        Console.WriteLine(BubbleSort.BubbleSort.Solution([1, 5, 4, 1 ,7, 6, 1, 5, 3]));
+        Console.WriteLine(BinarySearch.BinarySearch.Solution([1, 5, 4, 1 ,7, 6, 1, 5, 3], 3));
         Console.WriteLine(123);
     }
 
