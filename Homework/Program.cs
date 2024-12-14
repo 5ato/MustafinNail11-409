@@ -1,4 +1,4 @@
-﻿using AboutMeClass;
+﻿using InheritanceHomework;
 
 
 namespace Homework;
@@ -7,16 +7,11 @@ class Program
 {
     public static void Main()
     {
-        Nail nail = new(new Student(1, "ИТИС", 409, true));
-        Console.WriteLine(nail.Age);
-        Console.WriteLine(nail.FirstName);
-        Console.WriteLine(nail.LastName);
-        Console.WriteLine(nail.GetFullName);
-        Console.WriteLine(nail.CurrentLanguageProgramm);
-        Console.WriteLine(nail.IsAdult);
-        Array.ForEach(nail.StackTechno.ToArray(), Console.Write);
-        Console.WriteLine(nail.GymYearExperience);
-        
+        var b = new B();
+        var c = new C();
+        ((A)c).PrintMessage();
+        ((A)b).PrintMessage();
+        c.PrintMessage();     
     }
 
     public static void PrintArray(string[] array)
