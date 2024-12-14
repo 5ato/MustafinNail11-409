@@ -11,6 +11,7 @@
     <ProjectReference Include="..\BinarySearch\BinarySearch.csproj" />
     <ProjectReference Include="..\BubbleSort\BubbleSort.csproj" />
     <ProjectReference Include="..\StringHomework\StringHomework.csproj" />
+    <ProjectReference Include="..\AboutMeClass\AboutMeClass.csproj" />
   </ItemGroup>
 
 </Project>

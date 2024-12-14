@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringHomework", "StringHomework\StringHomework.csproj", "{49CE0457-900F-4D35-A7C3-7B308618918D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AboutMeClass", "AboutMeClass\AboutMeClass.csproj", "{2B244348-41B3-45E7-9C03-7776E4AA6A6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{49CE0457-900F-4D35-A7C3-7B308618918D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49CE0457-900F-4D35-A7C3-7B308618918D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49CE0457-900F-4D35-A7C3-7B308618918D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B244348-41B3-45E7-9C03-7776E4AA6A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B244348-41B3-45E7-9C03-7776E4AA6A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B244348-41B3-45E7-9C03-7776E4AA6A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B244348-41B3-45E7-9C03-7776E4AA6A6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
